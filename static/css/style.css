@@ -1,0 +1,64 @@
+html, body{
+	min-height: 100%;
+}
+body{
+	position: relative;
+	/*background-color: #404040;*/
+	background: rgba(0,0,0,0.85);
+	z-index: 1;
+	/*opacity: 0.3;*/
+}
+
+#popup {
+	color: white;
+	font-family: Consolas,monospace; 
+	background: rgba(0,0,0,0.85);
+	font-weight: 300px;
+}
+
+a {
+	color: white !important;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C0C0C0 !important;
+}
+
+#id01 {
+	/*background: rgba(0,0,0,0.7);*/
+	position: relative;
+	width: 700px;
+	margin: 90px auto 50px;
+}
+
+#answer {
+	width: 700px;
+	margin: 60px auto 50px;
+}
+
+textarea {
+	color: white;
+	background: transparent;
+	border: none;
+	z-index: 1;
+	height:200px;
+	width: 700px;
+    font-size:16pt;
+
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+#help {
+	color: white;
+	font-size: 14pt;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin-right: 70px;
+	float:right;
+}

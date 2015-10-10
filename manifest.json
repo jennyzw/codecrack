@@ -1,0 +1,22 @@
+{
+    "name": "crack",
+    "manifest_version": 2,
+    "description": "coding questions in place of the new tab",
+    "version": "0.1",
+    "permissions" : ["management"],
+    "chrome_url_overrides" : {
+        "newtab": "templates/newtab.html"
+    },
+    "icons": {"16": "code.png",
+           "48": "code.png",
+          "128": "code.png"
+    },
+     "browser_action": {
+          "default_icon": {
+            "19": "code.png",           // optional
+            "38": "code.png"  
+          },
+          "default_title": "Code Crack",
+          "default_popup": "templates/popup.html" 
+        }
+ }
