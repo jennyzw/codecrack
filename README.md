@@ -1,6 +1,7 @@
 # codecrack
 google chrome extension. open a new tab &amp; solve a coding challenge
 
+Storyboarding
 -------------
 open new tab
 solve a coding challenge and submit your answer (via codingbat)
